@@ -2,6 +2,6 @@
   "user" : "JEM",
   "host" : "DESKTOP-OK7SAA6",
   "description" : "DEMO:PV7",
-  "delay" : 1,
-  "count" : 2
+  "latching" : false,
+  "annunciating" : false
 }

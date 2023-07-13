@@ -62,10 +62,8 @@
     <pv name="DEMO:PV7">
       <description>DEMO:PV7</description>
       <enabled>true</enabled>
-      <latching>true</latching>
-      <annunciating>true</annunciating>
-      <delay>1</delay>
-      <count>2</count>
+      <latching>false</latching>
+      <annunciating>false</annunciating>
     </pv>
   </component>
 </config>
