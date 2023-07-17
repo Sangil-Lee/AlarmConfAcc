@@ -3,5 +3,9 @@
   "host" : "devDesk",
   "description" : "DEMO:PV1",
   "annunciating" : false,
-  "filter" : "DEMO:PV2 > 10"
+  "filter" : "DEMO:PV2 > 10",
+  "guidance" : [ {
+    "title" : "Procedure1",
+    "details" : "CV7401 Valve Close"
+  } ]
 }
