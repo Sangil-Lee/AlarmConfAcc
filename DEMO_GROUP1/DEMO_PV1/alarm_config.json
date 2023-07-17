@@ -1,7 +1,7 @@
 {
-  "user" : "JEM",
-  "host" : "DESKTOP-OK7SAA6",
+  "user" : "ctrluser",
+  "host" : "devDesk",
   "description" : "DEMO:PV1",
-  "latching" : false,
+  "annunciating" : false,
   "filter" : "DEMO:PV2 > 10"
 }
