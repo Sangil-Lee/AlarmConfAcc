@@ -4,12 +4,16 @@
     <pv name="DEMO:PV1">
       <description>DEMO:PV1</description>
       <enabled>true</enabled>
-      <latching>true</latching>
-      <annunciating>false</annunciating>
+      <latching>false</latching>
+      <annunciating>true</annunciating>
       <filter>DEMO:PV2 &gt; 10</filter>
       <guidance>
         <title>Procedure1</title>
         <details>CV7401 Valve Close</details>
+      </guidance>
+      <guidance>
+        <title>Procedure2</title>
+        <details>CV7401 Valve Open</details>
       </guidance>
     </pv>
     <pv name="DEMO:PV2">
