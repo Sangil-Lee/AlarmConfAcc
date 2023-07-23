@@ -1,9 +1,5 @@
 {
-  "user" : "JEM",
-  "host" : "DESKTOP-OK7SAA6",
-  "description" : "DEMO:PV3",
-  "commands" : [ {
-    "title" : "command",
-    "details" : "Test Command"
-  } ]
+  "user" : "ctrluser",
+  "host" : "devserver",
+  "delete" : "Deleting"
 }
