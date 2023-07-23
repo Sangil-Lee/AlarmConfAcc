@@ -1,0 +1,9 @@
+{
+  "user" : "ctrluser",
+  "host" : "devserver",
+  "description" : "DEMO:PV3",
+  "commands" : [ {
+    "title" : "command",
+    "details" : "Test Command"
+  } ]
+}
