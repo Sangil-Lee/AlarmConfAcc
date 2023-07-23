@@ -1,14 +1,5 @@
 {
   "user" : "ctrluser",
-  "host" : "devDesk",
-  "description" : "DEMO:PV1",
-  "latching" : false,
-  "filter" : "DEMO:PV2 > 10",
-  "guidance" : [ {
-    "title" : "Procedure1",
-    "details" : "CV7401 Valve Close"
-  }, {
-    "title" : "Procedure2",
-    "details" : "CV7401 Valve Open"
-  } ]
+  "host" : "devserver",
+  "delete" : "Deleting"
 }
