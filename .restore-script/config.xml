@@ -75,5 +75,11 @@
     </pv>
   </component>
   <component name="FishTank">
+    <pv name="ctrlslab:heat_V">
+      <description>ctrlslab:heat_V</description>
+      <enabled>true</enabled>
+      <latching>true</latching>
+      <annunciating>true</annunciating>
+    </pv>
   </component>
 </config>
