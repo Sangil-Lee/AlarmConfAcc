@@ -81,6 +81,12 @@
       <latching>true</latching>
       <annunciating>true</annunciating>
     </pv>
+    <pv name="ctrlslab:integral">
+      <description>ctrlslab:integral</description>
+      <enabled>true</enabled>
+      <latching>true</latching>
+      <annunciating>true</annunciating>
+    </pv>
     <pv name="ctrlslab:tank">
       <description>ctrlslab:tank</description>
       <enabled>true</enabled>
