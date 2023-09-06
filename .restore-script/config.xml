@@ -50,5 +50,29 @@
     </pv>
   </component>
   <component name="FishTank">
+    <pv name="ctrlslab:error">
+      <description>ctrlslab:error</description>
+      <enabled>true</enabled>
+      <latching>true</latching>
+      <annunciating>true</annunciating>
+    </pv>
+    <pv name="ctrlslab:heat_V">
+      <description>ctrlslab:heat_V</description>
+      <enabled>true</enabled>
+      <latching>true</latching>
+      <annunciating>true</annunciating>
+    </pv>
+    <pv name="ctrlslab:integral">
+      <description>ctrlslab:integral</description>
+      <enabled>true</enabled>
+      <latching>true</latching>
+      <annunciating>true</annunciating>
+    </pv>
+    <pv name="ctrlslab:tank">
+      <description>ctrlslab:tank</description>
+      <enabled>true</enabled>
+      <latching>true</latching>
+      <annunciating>true</annunciating>
+    </pv>
   </component>
 </config>
