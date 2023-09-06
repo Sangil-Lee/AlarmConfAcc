@@ -1,5 +1,9 @@
 {
-  "user" : "ctrluser",
-  "host" : "localhost.localdomain",
-  "description" : "ctrlslab:tank"
+  "user" : "JEM",
+  "host" : "DESKTOP-OK7SAA6",
+  "description" : "ctrlslab:tank",
+  "guidance" : [ {
+    "title" : "Procedure1",
+    "details" : "set 'setpoint' under 40"
+  } ]
 }

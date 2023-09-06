@@ -73,6 +73,10 @@
       <enabled>true</enabled>
       <latching>true</latching>
       <annunciating>true</annunciating>
+      <guidance>
+        <title>Procedure1</title>
+        <details>set 'setpoint' under 40</details>
+      </guidance>
     </pv>
   </component>
 </config>
