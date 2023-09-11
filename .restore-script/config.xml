@@ -26,7 +26,7 @@
       <pv name="DEMO:PV4">
         <description>DEMO:PV4</description>
         <enabled>true</enabled>
-        <latching>false</latching>
+        <latching>true</latching>
         <annunciating>false</annunciating>
       </pv>
       <pv name="DEMO:PV5">
