@@ -32,7 +32,7 @@
       <pv name="DEMO:PV5">
         <description>DEMO:PV5</description>
         <enabled>true</enabled>
-        <latching>false</latching>
+        <latching>true</latching>
         <annunciating>false</annunciating>
       </pv>
     </component>
