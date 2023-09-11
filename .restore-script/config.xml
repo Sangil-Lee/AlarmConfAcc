@@ -4,7 +4,7 @@
     <pv name="DEMO:PV1">
       <description>DEMO:PV1</description>
       <enabled>true</enabled>
-      <latching>false</latching>
+      <latching>true</latching>
       <annunciating>false</annunciating>
       <filter>DEMO:PV2 &gt; 10</filter>
     </pv>
