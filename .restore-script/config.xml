@@ -7,6 +7,14 @@
       <latching>true</latching>
       <annunciating>false</annunciating>
       <filter>DEMO:PV2 &gt; 10</filter>
+      <guidance>
+        <title>Proc1</title>
+        <details>Close Valve 1</details>
+      </guidance>
+      <guidance>
+        <title>Proc2</title>
+        <details>Call</details>
+      </guidance>
     </pv>
     <pv name="DEMO:PV2">
       <description>DEMO:PV2</description>
