@@ -2,5 +2,6 @@
   "user" : "ctrluser",
   "host" : "localhost.localdomain",
   "description" : "DEMO:PV4",
+  "latching" : false,
   "annunciating" : false
 }
