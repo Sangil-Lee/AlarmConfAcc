@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config name="Accelerator">
   <component name="DEMO:GROUP1">
+    <guidance>
+      <title>Desc.</title>
+      <details>AR Section1 Magnet </details>
+    </guidance>
+    <command>
+      <title>Proc1</title>
+      <details>Close CV7401 set 60%</details>
+    </command>
     <pv name="DEMO:PV1">
       <description>DEMO:PV1</description>
       <enabled>true</enabled>
