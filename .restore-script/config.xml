@@ -34,7 +34,7 @@
       <description>DEMO:PV3</description>
       <enabled>true</enabled>
       <latching>false</latching>
-      <annunciating>false</annunciating>
+      <annunciating>true</annunciating>
     </pv>
   </component>
   <component name="DEMO:GROUP2">
