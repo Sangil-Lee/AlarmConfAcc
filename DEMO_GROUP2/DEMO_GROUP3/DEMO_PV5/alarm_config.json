@@ -1,7 +1,6 @@
 {
-  "user" : "ctrluser",
-  "host" : "localhost.localdomain",
+  "user" : "JEM",
+  "host" : "DESKTOP-OK7SAA6",
   "description" : "DEMO:PV5",
-  "latching" : false,
-  "annunciating" : false
+  "latching" : false
 }
