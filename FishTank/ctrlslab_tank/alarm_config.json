@@ -1,7 +1,7 @@
 {
   "user" : "JEM",
   "host" : "DESKTOP-OK7SAA6",
-  "description" : "ctrlslab:tank",
+  "description" : "Alarm Descritption for Tank on FisthTank",
   "guidance" : [ {
     "title" : "Procedure1",
     "details" : "set 'setpoint' under 40"

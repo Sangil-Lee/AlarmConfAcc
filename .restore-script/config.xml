@@ -85,7 +85,7 @@
       <annunciating>true</annunciating>
     </pv>
     <pv name="ctrlslab:tank">
-      <description>ctrlslab:tank</description>
+      <description>Alarm Descritption for Tank on FisthTank</description>
       <enabled>true</enabled>
       <latching>true</latching>
       <annunciating>true</annunciating>
