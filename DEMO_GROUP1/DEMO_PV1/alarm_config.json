@@ -1,8 +1,7 @@
 {
-  "user" : "ctrluser",
-  "host" : "localhost.localdomain",
+  "user" : "JEM",
+  "host" : "DESKTOP-OK7SAA6",
   "description" : "DEMO:PV1",
-  "annunciating" : false,
   "filter" : "DEMO:PV2 > 10",
   "guidance" : [ {
     "title" : "Proc1",

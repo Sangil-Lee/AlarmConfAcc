@@ -13,7 +13,7 @@
       <description>DEMO:PV1</description>
       <enabled>true</enabled>
       <latching>true</latching>
-      <annunciating>false</annunciating>
+      <annunciating>true</annunciating>
       <filter>DEMO:PV2 &gt; 10</filter>
       <guidance>
         <title>Proc1</title>
