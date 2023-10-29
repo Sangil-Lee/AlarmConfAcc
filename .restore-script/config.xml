@@ -1,40 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config name="Accelerator">
   <component name="DEMO:GROUP1">
-    <guidance>
-      <title>Desc.</title>
-      <details>AR Section1 Magnet </details>
-    </guidance>
-    <command>
-      <title>Proc1</title>
-      <details>Close CV7401 set 60%</details>
-    </command>
     <pv name="DEMO:PV1">
       <description>DEMO:PV1</description>
       <enabled>true</enabled>
-      <latching>true</latching>
-      <annunciating>true</annunciating>
+      <latching>false</latching>
+      <annunciating>false</annunciating>
       <filter>DEMO:PV2 &gt; 10</filter>
-      <guidance>
-        <title>Proc1</title>
-        <details>Close Valve 1</details>
-      </guidance>
-      <guidance>
-        <title>Proc2</title>
-        <details>Call</details>
-      </guidance>
     </pv>
     <pv name="DEMO:PV2">
       <description>DEMO:PV2</description>
       <enabled>true</enabled>
       <latching>false</latching>
-      <annunciating>true</annunciating>
+      <annunciating>false</annunciating>
     </pv>
     <pv name="DEMO:PV3">
       <description>DEMO:PV3</description>
       <enabled>true</enabled>
       <latching>false</latching>
-      <annunciating>true</annunciating>
+      <annunciating>false</annunciating>
     </pv>
   </component>
   <component name="DEMO:GROUP2">
@@ -43,13 +27,13 @@
         <description>DEMO:PV4</description>
         <enabled>true</enabled>
         <latching>false</latching>
-        <annunciating>true</annunciating>
+        <annunciating>false</annunciating>
       </pv>
       <pv name="DEMO:PV5">
         <description>DEMO:PV5</description>
         <enabled>true</enabled>
         <latching>false</latching>
-        <annunciating>true</annunciating>
+        <annunciating>false</annunciating>
       </pv>
     </component>
     <pv name="DEMO:PV6">
@@ -63,36 +47,58 @@
       <enabled>true</enabled>
       <latching>false</latching>
       <annunciating>false</annunciating>
+      <guidance>
+        <title>Check 1</title>
+        <details>Check Valve(ctrlslab:CV7301) Status</details>
+      </guidance>
+      <guidance>
+        <title>Proc1</title>
+        <details>Control valve(ctrlslab-CV7301) set to 50%</details>
+      </guidance>
+      <guidance>
+        <title>Proc2</title>
+        <details>Wait 2min then monitor Check1</details>
+      </guidance>
+      <guidance>
+        <title>Inform1</title>
+        <details>Next shift operator(Mr.John)</details>
+      </guidance>
+      <command>
+        <title>Action1</title>
+        <details>python C:/phoebus-4.6.10/fishtank/scripts/Action1.py</details>
+      </command>
     </pv>
   </component>
   <component name="FishTank">
-    <pv name="ctrlslab:error">
-      <description>ctrlslab:error</description>
-      <enabled>true</enabled>
-      <latching>true</latching>
-      <annunciating>true</annunciating>
-    </pv>
+    <component name="SubFishTank">
+      <pv name="ctrlslab:error">
+        <description>ctrlslab:error</description>
+        <enabled>true</enabled>
+        <latching>true</latching>
+        <annunciating>true</annunciating>
+      </pv>
+      <pv name="ctrlslab:integral">
+        <description>ctrlslab:integral</description>
+        <enabled>true</enabled>
+        <latching>true</latching>
+        <annunciating>true</annunciating>
+      </pv>
+    </component>
     <pv name="ctrlslab:heat_V">
       <description>ctrlslab:heat_V</description>
       <enabled>true</enabled>
       <latching>true</latching>
       <annunciating>true</annunciating>
     </pv>
-    <pv name="ctrlslab:integral">
-      <description>ctrlslab:integral</description>
-      <enabled>true</enabled>
-      <latching>true</latching>
-      <annunciating>true</annunciating>
-    </pv>
     <pv name="ctrlslab:tank">
-      <description>Alarm Descritption for Tank on FisthTank</description>
+      <description>ctrlslab:tank</description>
       <enabled>true</enabled>
       <latching>true</latching>
       <annunciating>true</annunciating>
-      <guidance>
-        <title>Procedure1</title>
-        <details>set 'setpoint' under 40</details>
-      </guidance>
+      <display>
+        <title>Screen1</title>
+        <details>C:\phoebus-4.6.10\fishtank\heater.bob</details>
+      </display>
     </pv>
   </component>
 </config>

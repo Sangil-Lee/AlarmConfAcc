@@ -1,12 +1,4 @@
 {
-  "user" : "JEM",
-  "host" : "DESKTOP-OK7SAA6",
-  "guidance" : [ {
-    "title" : "Desc.",
-    "details" : "AR Section1 Magnet "
-  } ],
-  "commands" : [ {
-    "title" : "Proc1",
-    "details" : "Close CV7401 set 60%"
-  } ]
+  "user" : "ctrluser",
+  "host" : "localhost.localdomain"
 }
