@@ -64,7 +64,7 @@
     <pv name="DEMO:PV6">
       <description>DEMO:PV6</description>
       <enabled>true</enabled>
-      <latching>false</latching>
+      <latching>true</latching>
       <annunciating>false</annunciating>
     </pv>
     <pv name="DEMO:PV7">
