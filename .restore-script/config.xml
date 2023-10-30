@@ -74,7 +74,7 @@
       <pv name="ctrlslab:error">
         <description>ctrlslab:error</description>
         <enabled>true</enabled>
-        <latching>true</latching>
+        <latching>false</latching>
         <annunciating>true</annunciating>
       </pv>
       <pv name="ctrlslab:integral">

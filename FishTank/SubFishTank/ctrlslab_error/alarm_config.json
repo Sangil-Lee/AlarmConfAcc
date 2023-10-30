@@ -1,5 +1,6 @@
 {
   "user" : "JEM",
   "host" : "DESKTOP-OK7SAA6",
-  "description" : "ctrlslab:error"
+  "description" : "ctrlslab:error",
+  "latching" : false
 }
