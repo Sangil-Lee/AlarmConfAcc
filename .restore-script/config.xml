@@ -74,8 +74,12 @@
       <pv name="ctrlslab:error">
         <description>ctrlslab:error</description>
         <enabled>true</enabled>
-        <latching>false</latching>
+        <latching>true</latching>
         <annunciating>true</annunciating>
+        <guidance>
+          <title>Proc1</title>
+          <details>Alarm Test</details>
+        </guidance>
       </pv>
       <pv name="ctrlslab:integral">
         <description>ctrlslab:integral</description>
