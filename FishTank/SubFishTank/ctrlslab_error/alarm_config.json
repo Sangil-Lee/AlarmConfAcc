@@ -5,5 +5,9 @@
   "guidance" : [ {
     "title" : "Proc1",
     "details" : "Alarm Test"
+  } ],
+  "commands" : [ {
+    "title" : "cmd1",
+    "details" : "cmd1"
   } ]
 }

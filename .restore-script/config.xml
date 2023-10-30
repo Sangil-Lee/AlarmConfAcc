@@ -80,6 +80,10 @@
           <title>Proc1</title>
           <details>Alarm Test</details>
         </guidance>
+        <command>
+          <title>cmd1</title>
+          <details>cmd1</details>
+        </command>
       </pv>
       <pv name="ctrlslab:integral">
         <description>ctrlslab:integral</description>
